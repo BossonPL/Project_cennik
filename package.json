@@ -1,7 +1,6 @@
 {
   "name": "project2",
   "version": "0.1.0",
-  "homepage": "https://BossonPL.github.io/Project_cennik",
   "private": true,
   "dependencies": {
     "babel-cli": "^6.26.0",

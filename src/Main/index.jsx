@@ -33,7 +33,6 @@ class Main extends Component {
         piesPrice: 8,
         altanaPrice: 15,
         taxa: 2
-
     };
     onButtonClickPlus = (e)=> {
          e.preventDefault();
@@ -50,7 +49,6 @@ class Main extends Component {
         })) : (this.setState({
             [ e.target.name]: Minus
         }));
-
     };
     render() {
         const {odorosla, dzieci, mlodziez, auto, bus, energia, przyczepa, camper, namiot2, namiot4, namiot6,motor, pies, altana ,taxa, numbDays} = this.state;
@@ -58,7 +56,6 @@ class Main extends Component {
         const dayPrice = odorosla*odoroslaPrice + dzieci*dzieciPrice + mlodziez*mlodziezPrice + auto*autoPrice + bus*busPrice + energia*energiaPrice + przyczepa*przyczepaPrice + camper*camperPrice + namiot2*namiot2Price + namiot4*namiot4Price + namiot6*namiot6Price +motor*motorPrice+ pies*piesPrice+ altana*altanaPrice+((odorosla+dzieci+mlodziez)*taxa);
         const allPrice= dayPrice*numbDays;
         return (
-
             <div className="borderBox">
             <div style={{fontSize:'xx-large', margin : '50px 0 40px 0', textAlign: 'center'}}> Cennik usług na sezon 2019</div>
             <div> </div>
@@ -184,12 +181,10 @@ class Main extends Component {
                 <tr>
                     <td>Cena za dobę</td>
                     <td colSpan={4}> {dayPrice}</td>
-
                 </tr>
                 <tr>
                     <td>Cena za cały pobyt</td>
                     <td colSpan={4}> {allPrice}</td>
-
                 </tr>
                 </tbody>
             </table>
