@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c22d03b3a220deaeed6b9f95d72304af",
+    "revision": "6f33c74310472fb6503723585afd1603",
     "url": "/Project_cennik/index.html"
   },
   {
-    "revision": "75a960b585441ecb7d41",
+    "revision": "45dde667615f67de40ce",
     "url": "/Project_cennik/static/css/main.8f364d14.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Project_cennik/static/js/2.37482684.chunk.js"
   },
   {
-    "revision": "75a960b585441ecb7d41",
-    "url": "/Project_cennik/static/js/main.d8aee525.chunk.js"
+    "revision": "45dde667615f67de40ce",
+    "url": "/Project_cennik/static/js/main.c08fb15e.chunk.js"
   },
   {
     "revision": "28861c073541cbeb7d7d",
